@@ -36,11 +36,16 @@ return {
 					},
 				},
 			},
-			["python-lsp-server"] = {},
+			-- ["python-lsp-server"] = {},
 			["cmake-language-server"] = {},
+			["css-lsp"] = {},
 			["clangd"] = {
-                cmd = { "clangd", "--header-insertion=never" },
-            },
+				cmd = { "clangd", "--header-insertion=never" },
+			},
+			["typescript-language-server"] = {},
+			["html-lsp"] = {},
+			["pyright"] = {},
+			["rust-analyzer"] = {},
 		}
 		for server, config in pairs(servers) do
 			setup(server, config)

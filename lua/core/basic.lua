@@ -22,3 +22,13 @@ vim.opt.showmode = false
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
 
+vim.lsp.config('rust_analyzer', {
+  settings = {
+    ['rust-analyzer'] = {
+      diagnostics = {
+        enable = true;
+      }
+    }
+  }
+})
+vim.lsp.enable('rust_analyzer')
