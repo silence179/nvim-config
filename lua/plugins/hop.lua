@@ -4,6 +4,6 @@ return{
         hint_position = 3,
     },
     keys = {
-        {"<leader>hp",":HopWord<CR>",silent = true}
+        {"<leader>h",":HopWord<CR>",silent = true}
     },
 }

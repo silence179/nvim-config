@@ -171,5 +171,5 @@ return {
 		},
 		interactive_winbar = {},
 	},
-	enabled = true,
+	enabled = false,
 }

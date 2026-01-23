@@ -33,3 +33,10 @@ vim.lsp.config('rust_analyzer', {
 })
 vim.lsp.enable('rust_analyzer')
 vim.opt.autochdir = true
+if vim.g.neovide then
+    -- 开启轨道炮粒子特效
+    vim.g.neovide_cursor_vfx_mode = "railgun"
+    -- 调整光标动画速度
+    vim.g.neovide_cursor_animation_length = 0.1
+    vim.g.neovide_capacity = 0.85
+end
