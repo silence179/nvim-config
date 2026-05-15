@@ -22,6 +22,12 @@ return {
                 return indicator
             end
         },
+        highlights = {
+            buffer_selected = {
+                fg = '#ffffff', -- 选中的文字颜色（设为纯白）
+                bold = true,
+            }
+        }
     },
     keys = {
         { "H", ":BufferLineCyclePrev<CR>",   silent = true },

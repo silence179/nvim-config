@@ -2,6 +2,9 @@ return {
     "nvimdev/lspsaga.nvim",
     cmd = "Lspsaga",
     opts = {
+        lightbulb = {
+            enable = false;
+        },
         finder = {
             keys = {
                 toggle_or_open = "<CR>"

@@ -5,6 +5,7 @@ return
     "neovim/nvim-lspconfig",
     { "nvim-telescope/telescope.nvim", branch = "0.1.x", dependencies = { "nvim-lua/plenary.nvim" } }, -- optional: you can also use fzf-lua, snacks, mini-pick instead.
   },
+  branch = "regexp",
   ft = "python", -- Load when opening Python files
   keys = {
     { "<leader>v", "<cmd>VenvSelect<cr>" }, -- Open picker on keymap
